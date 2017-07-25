@@ -1,0 +1,47 @@
+.material-icons {
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+tr.selected-row {
+  background-color: salmon;
+  color: #fff;
+}
+
+tr.selected-row:hover {
+  background-color: salmon !important;
+  color: #fff !important;
+}
+
+.errors {
+  color: #ff0000;
+  font-size: 14px;
+}
+
+.main-container {
+  margin-top: 30px;
+  padding: 0 20px;
+}
+
+.detail-container {
+
+}
+
+.proposal-form {
+  max-width: 350px;
+  margin-left: 70px;
+}
+
+.select-input {
+  margin-top: 14px;
+}
+
+.btn {
+  margin-top: 14px;
+  margin-right: 10px;
+}
+
+.title {
+  margin-left: 20px;
+  font-size: 24px;
+}

@@ -1,0 +1,56 @@
+{
+  "proposals": [
+    {
+      "id": 1,
+      "number": "ZV_378234",
+      "name": "Подключить услугу",
+      "toUserId": "2",
+      "fromUserId": "1",
+      "statusId": "1"
+    },
+    {
+      "id": 2,
+      "number": "ZV_485824",
+      "name": "Настроить доступ",
+      "toUserId": "3",
+      "fromUserId": "2",
+      "statusId": "2"
+    },
+    {
+      "id": 3,
+      "number": "ZV_394718",
+      "name": "Найти документ",
+      "toUserId": "1",
+      "fromUserId": "3",
+      "statusId": "3"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Михаил"
+    },
+    {
+      "id": "2",
+      "name": "Петр"
+    },
+    {
+      "id": "3",
+      "name": "Александр"
+    }
+  ],
+  "statuses": [
+    {
+      "id": 1,
+      "name": "Создано"
+    },
+    {
+      "id": 2,
+      "name": "На исполнении"
+    },
+    {
+      "id": 3,
+      "name": "Выполнено"
+    }
+  ]
+}
